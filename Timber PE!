@@ -1,4 +1,4 @@
-//Timber PE! by MCKing82
+//Timber PE! by Tommy82
 //A mod based of the popular PC Timber Mod
 
 function destroyBlock(x, y, z, side) 
