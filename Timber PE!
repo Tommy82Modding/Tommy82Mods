@@ -1,0 +1,52 @@
+//Timber PE! by MCKing82
+//A mod based of the popular PC Timber Mod
+
+function destroyBlock(x, y, z, side) 
+{
+shouldDropItem = false;
+if(Level.getTile(x, y, z)==17 && getCarriedItem()==271||Level.getTile(x, y, z)==17 && getCarriedItem()==275||Level.getTile(x, y, z)==17 && getCarriedItem()==258||Level.getTile(x, y, z)==17 && getCarriedItem()==279||Level.getTile(x, y, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y,z,shouldDropItem)
+}
+if(Level.getTile(x, y+1, z)==17 && getCarriedItem()==271||Level.getTile(x, y+1, z)==17 && getCarriedItem()==275||Level.getTile(x, y+1, z)==17 && getCarriedItem()==258||Level.getTile(x, y+1, z)==17 && getCarriedItem()==279||Level.getTile(x, y+1, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+1,z,shouldDropItem)
+}
+if(Level.getTile(x, y+2, z)==17 && getCarriedItem()==271||Level.getTile(x, y+2, z)==17 && getCarriedItem()==275||Level.getTile(x, y+2, z)==17 && getCarriedItem()==258||Level.getTile(x, y+2, z)==17 && getCarriedItem()==279||Level.getTile(x, y+2, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+2,z,shouldDropItem)
+}
+if(Level.getTile(x, y+3, z)==17 && getCarriedItem()==271||Level.getTile(x, y+3, z)==17 && getCarriedItem()==275||Level.getTile(x, y+3, z)==17 && getCarriedItem()==258||Level.getTile(x, y+3, z)==17 && getCarriedItem()==279||Level.getTile(x, y+3, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+3,z,shouldDropItem)
+}
+if(Level.getTile(x, y+4, z)==17 && getCarriedItem()==271||Level.getTile(x, y+4, z)==17 && getCarriedItem()==275||Level.getTile(x, y+4, z)==17 && getCarriedItem()==258||Level.getTile(x, y+4, z)==17 && getCarriedItem()==279||Level.getTile(x, y+4, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+4,z,shouldDropItem)
+}
+if(Level.getTile(x, y+5, z)==17 && getCarriedItem()==271||Level.getTile(x, y+5, z)==17 && getCarriedItem()==275||Level.getTile(x, y+5, z)==17 && getCarriedItem()==258||Level.getTile(x, y+5, z)==17 && getCarriedItem()==279||Level.getTile(x, y+5, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+5,z,shouldDropItem)
+}
+if(Level.getTile(x, y+6, z)==17 && getCarriedItem()==271||Level.getTile(x, y+6, z)==17 && getCarriedItem()==275||Level.getTile(x, y+6, z)==17 && getCarriedItem()==258||Level.getTile(x, y+6, z)==17 && getCarriedItem()==279||Level.getTile(x, y+6, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+6,z,shouldDropItem)
+}
+if(Level.getTile(x, y+7, z)==17 && getCarriedItem()==271||Level.getTile(x, y+7, z)==17 && getCarriedItem()==275||Level.getTile(x, y+7, z)==17 && getCarriedItem()==258||Level.getTile(x, y+7, z)==17 && getCarriedItem()==279||Level.getTile(x, y+7, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+7,z,shouldDropItem)
+}
+if(Level.getTile(x, y+8, z)==17 && getCarriedItem()==271||Level.getTile(x, y+8, z)==17 && getCarriedItem()==275||Level.getTile(x, y+8, z)==17 && getCarriedItem()==258||Level.getTile(x, y+8, z)==17 && getCarriedItem()==279||Level.getTile(x, y+8, z)==17 && getCarriedItem()==286) 
+{
+Level.dropItem(x, y, z, 0, 17, 1, 0);
+Level.destroyBlock(x,y+8,z,shouldDropItem)
+}
+}
