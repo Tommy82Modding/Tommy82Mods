@@ -1,4 +1,4 @@
-MCKing82Mods
+Tommy82Mods
 ============
 
-Mods by MCKing82
+Mods by Tommy82
