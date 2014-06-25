@@ -72,6 +72,12 @@ hb.setOnClickListener(new View.OnClickListener({
 onClick:function(){
 health();
 }}));
+}catch(e){
+print("Error: " + e);
+}
+}
+}));
+}
 
 function gamemode(){
 ctx.runOnUiThread(new Runnable({
@@ -290,19 +296,12 @@ Entity.setHealth(getPlayerEnt(), 20);
 hlayout.dismiss();
 }
 }));
-}catch(e){
-print("Error: " + e);
-}
-}
-}));
-}
-
 
 function leaveGame()
 {
 ctx.runOnUiThread(new Runnable(){
 run:function(){
 if(GUI!=null){
-GUI.dismiss()
+GUI.dismiss();
 }}});
 }
