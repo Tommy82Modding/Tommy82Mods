@@ -129,8 +129,8 @@ cb.setOnClickListener(new View.OnClickListener( {
 onClick:function(){
 Level.setGameMode(1)
 gmlayout.dismiss();
-}}));
-}}}));
+}
+}));
 
 function time(){
 ctx.runOnUiThread(new Runnable({
@@ -169,8 +169,11 @@ sunsetb.setWidth(LinearLayout.LayoutParams.WRAP_CONTENT);
 nightb.setHeight(LinearLayout.LayoutParams.WRAP_CONTENT);
 nightb.setWidth(LinearLayout.LayoutParams.WRAP_CONTENT);
 
-tlayout.addView(sb)
-tlayout.addView(cb)
+tlayout.addView(sunsriseb)
+tlayout.addView(morningb)
+tlayout.addView(middayb)
+tlayout.addView(afternoonb)
+tlayout.addView(nightb)
 
 scrollv.addView(tlayout)
 
@@ -203,7 +206,7 @@ Level.setTime(0)
 tlayout.dismiss();
 }}));
 
-sunsetb.setOnClickListener(new View.OnClickListener( {
+afternoonb.setOnClickListener(new View.OnClickListener( {
 onClick:function(){
 Level.setTime(0)
 tlayout.dismiss();
@@ -219,8 +222,8 @@ nightb.setOnClickListener(new View.OnClickListener( {
 onClick:function(){
 Level.setTime(0)
 tlayout.dismiss();
-}}));
-}}}));
+}
+}));
 
 function health(){
 ctx.runOnUiThread(new Runnable({
@@ -285,8 +288,8 @@ twentyb.setOnClickListener(new View.OnClickListener( {
 onClick:function(){
 Entity.setHealth(getPlayerEnt(), 20);
 hlayout.dismiss();
-}}));
-}}}));
+}
+}));
 }catch(e){
 print("Error: " + e);
 }
